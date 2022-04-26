@@ -33,3 +33,9 @@ This documentation will link to other webpages to describe steps that are alread
   :caption: Add raw file
 
   add-raw-file.rst
+
+.. toctree::
+  :maxdepth: 1
+  :caption: Preprocessing
+
+  preprocessing.rst

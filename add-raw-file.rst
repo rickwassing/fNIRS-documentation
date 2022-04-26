@@ -1,6 +1,6 @@
-============================
+=========================
 Add a raw fNIRS recording
-============================
+=========================
 
 - To add your raw fNIRS recording, right click on the subject you want to import a file for, and select "Review raw file".
 
@@ -17,7 +17,7 @@ Add a raw fNIRS recording
 - Always visually inspect the recording by double clicking on the "Link to raw file".
 
 .. figure:: images/01e_link-to-raw-file.png
-  :width: 854px
+  :width: 80%
   :align: center
 
 .. figure:: images/01f_inspect-file.png
