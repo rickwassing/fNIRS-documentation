@@ -18,7 +18,7 @@ Visual inspection
 Preproc pipeline
 ================
 
-- Drag one or more "Link to raw file" into the "Files to process" box.
+- Drag one "Link to raw file" into the "Files to process" box (you may run into an unexpected error - bug - if you run multiple files).
 
 .. figure:: images/02b_files-to-process.png
   :width: 80%
@@ -61,6 +61,11 @@ Motion correction
 - Specify "BAD" as the movement event name.
 - Set the smoothing parameters to "0.99".
 
+Remove bad epoch events
+-----------------------
+- From the menu, select "Events" > "Delete events".
+- Specify "BAD" in the event names input field.
+
 Short-separation channel regression
 -----------------------------------
 
@@ -72,7 +77,7 @@ Convert to Hb concentrations
 ----------------------------
 
 - From the menu, select "NIRS" > "dOD and MBLL" > "MBLL - delta OD to delta [HbO], [HbR] & [HbT]".
-- Provided the age of the subject.
+- Provide the age of the subject.
 - Set the partial volume correction factor (PVF) to "50".
 - Check the differential light path factor (DPF) correction box.
 - Select "`DUNCAN1996 <https://pubmed.ncbi.nlm.nih.gov/8726247/>`_" or "`SCHOLKMANN2013 <https://pubmed.ncbi.nlm.nih.gov/24121731/>`_" as your correction method.
@@ -81,3 +86,4 @@ Convert to Hb concentrations
 
 - Click "Run"
 - Once the processes have completed, check the "Report" window for any further information, warnings and errors.
+- Also, ALWAYS visually inspect the output files!

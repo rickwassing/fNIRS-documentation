@@ -39,3 +39,9 @@ This documentation will link to other webpages to describe steps that are alread
   :caption: Preprocessing
 
   preprocessing.rst
+
+.. toctree::
+  :maxdepth: 1
+  :caption: Block average analysis
+
+  block-averaging.rst
