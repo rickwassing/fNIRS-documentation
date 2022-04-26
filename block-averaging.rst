@@ -11,8 +11,8 @@ Import into database
 - Right-click on the "Hb [Topo]" file and select "Import in database".
 
 .. figure:: images/03a_import-in-database.png
-  :width: 
-  :align: center
+    :width: 
+    :align: center
 
 - Check the "Use events" box in the "Events selection" panel.
 - Select the event of interest marking the start of the block.
@@ -22,8 +22,8 @@ Import into database
 - Click "Import".
 
 .. figure:: images/03b_import-in-database.png
-  :width: 
-  :align: center
+    :width: 
+    :align: center
 
 Average across trials
 ---------------------
