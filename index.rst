@@ -17,8 +17,19 @@ Dependencies
 - `Brainstorm <https://neuroimage.usc.edu/brainstorm/Introduction>`_
 - `NIRStorm <https://github.com/Nirstorm/nirstorm/wiki>`_
 
+Further Reading
+---------------
+
+This documentation will link to other webpages to describe steps that are already documented elsewhere. For example, to learn more about Brainstorm, see their `documentation website <https://neuroimage.usc.edu/brainstorm/Tutorials>`_.
+
 .. toctree::
   :maxdepth: 1
   :caption: Getting started
 
   getting-started.rst
+
+.. toctree::
+  :maxdepth: 1
+  :caption: Add raw file
+
+  add-raw-file.rst
